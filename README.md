@@ -11,7 +11,8 @@ Open terminal and type the following commands, then a new conda environment for 
 ```
 conda create -n xuance_drones python=3.10
 conda activate xuance_drones
-pip install xuance  
+cd xuance
+pip install -e .
 
 git clone https://github.com/utiasDSL/gym-pybullet-drones.git
 cd gym-pybullet-drones/
